@@ -1,37 +1,37 @@
 
 #A)
-my_list = [2, 6, 5, 3, 5, 4, 1, 5, 4, 6, 9 ]
+your_list = [2, 6, 5, 3, 5, 4, 1, 5, 4, 6, 9 ]
 
-my_list.append(5)
-print("Append :",my_list)
+your_list.append(5)
+print("Append :",your_list)
 
-my_list.extend([5, 8, 9])
-print("extend :",my_list)
+your_list.extend([5, 8, 9])
+print("extend :",your_list)
 
-my_list.remove(5)
-print("remove :",my_list)
+your_list.remove(5)
+print("remove :",your_list)
 
-my_list.reverse()
-print("reverse :",my_list)
+your_list.reverse()
+print("reverse :",your_list)
 
-my_list.sort()
-print("List in ascending order:", my_list)
+your_list.sort()
+print("List in ascending order:", your_list)
 
-my_list.sort(reverse=True)
-print("List in descending order:", my_list)
+your_list.sort(reverse=True)
+print("List in descending order:", your_list)
 
 
 #B)
 
-my_list = [1, 2, 3, 4, ["python", "java", "c++", [10,20,30]], 5, 6, 7, ["apple", "banana", "orange"]]
+your_list = [1, 2, 3, 4, ["python", "java", "c++", [10,20,30]], 5, 6, 7, ["apple", "banana", "orange"]]
 
-word1 = my_list[8][2]
+word1 = your_list[8][2]
 print("Word 1:", word1)
 
-word2 = my_list[4][0].capitalize()
+word2 = your_list[4][0].capitalize()
 print("Word 2:", word2)
 
-new_list = [my_list] * 5
+new_list = [your_list] * 5
 print("Repeated list:", new_list)
 
 
